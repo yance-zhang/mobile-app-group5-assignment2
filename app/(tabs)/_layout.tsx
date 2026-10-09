@@ -51,13 +51,30 @@ export default function TabLayout() {
         }}
       />
       <Tabs.Screen
-        name="two"
+        name="groups"
         options={{
-          title: "Tab Two",
+          title: "Groups",
           tabBarIcon: ({ color }) => (
             <SymbolView
               name={{
                 ios: "chevron.left.forwardslash.chevron.right",
+                android: "code",
+                web: "code",
+              }}
+              tintColor={color}
+              size={28}
+            />
+          ),
+        }}
+      />
+      <Tabs.Screen
+        name="activity"
+        options={{
+          title: "Activity",
+          tabBarIcon: ({ color }) => (
+            <SymbolView
+              name={{
+                ios: "chart.line.uptrend.xyaxis",
                 android: "code",
                 web: "code",
               }}
