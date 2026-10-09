@@ -13,7 +13,7 @@ export default function ProfileLayout() {
       <Stack.Screen
         name="appearance"
         options={{
-          headerShown: false,
+          headerTitleAlign: "center",
           title: "Appearance",
         }}
       />
