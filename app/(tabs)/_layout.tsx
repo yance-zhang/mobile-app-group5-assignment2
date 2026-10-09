@@ -66,6 +66,23 @@ export default function TabLayout() {
           ),
         }}
       />
+      <Tabs.Screen
+        name="activity"
+        options={{
+          title: "Activity",
+          tabBarIcon: ({ color }) => (
+            <SymbolView
+              name={{
+                ios: "chart.line.uptrend.xyaxis",
+                android: "code",
+                web: "code",
+              }}
+              tintColor={color}
+              size={28}
+            />
+          ),
+        }}
+      />
       {/* Profile screen */}
       <Tabs.Screen
         name="profile"
