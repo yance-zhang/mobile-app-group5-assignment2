@@ -50,9 +50,9 @@ export default function TabLayout() {
         }}
       />
       <Tabs.Screen
-        name="two"
+        name="groups"
         options={{
-          title: "Tab Two",
+          title: "Groups",
           tabBarIcon: ({ color }) => (
             <SymbolView
               name={{
